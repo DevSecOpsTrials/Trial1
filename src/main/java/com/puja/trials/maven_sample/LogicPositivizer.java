@@ -17,6 +17,8 @@ import java.nio.file.Paths;
  */
 public class LogicPositivizer {
     public static void main(String[] args) {
+        System.out.println("Hello! I'm from main");
+        
         // JavaParser has a minimal logging class that normally logs nothing.
         // Let's ask it to write to standard out:
         Log.setAdapter(new Log.StandardOutStandardErrorAdapter());
